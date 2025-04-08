@@ -1,0 +1,22 @@
+.Principal {
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.Titulo h1 {
+    text-align: center;
+    text-decoration: underline red; 
+}
+.Subtitulo h2 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+}

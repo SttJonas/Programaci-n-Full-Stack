@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Emblema+One&family=Iansui&display=swap');
+body{
+    background-color: white;
+    text-align: center;
+    font-family: "Emblema One";
+}
+.imagenes{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(0, 136, 255);
+    align-items: center;
+    margin: 0 auto;
+}
+.imagenes img{
+    width: 25%;
+    height: 30%;
+    object-fit: initial;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    border-radius: 8px;
+    transition: 0.4s ease;
+}
+.imagenes img:hover{
+    transform: scale(1.2); 
+
+}
+header{
+text-align: left;
+background-color: #ffcc99;
+padding: 9px;
+}
+.Tip{
+    padding: 8px;
+    background-color: #f8c796;
+}

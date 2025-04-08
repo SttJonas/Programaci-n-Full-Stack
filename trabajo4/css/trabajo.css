@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    
+    background-image: url(https://www.truesec.com/wp-content/uploads/2024/08/lockbit_analysis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1110px; 
+}
+.titulo {
+    background-color: white;    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.titulo h2{
+    text-align: left;
+
+    
+}
+.titulo nav{
+    text-align: right;
+    margin-left: 999px;
+}
+.titulo nav a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.Principal{
+    margin-right: 990px;
+    justify-content: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+.Principal h3{
+    text-align: center;
+}
+.Secundario{
+    margin-right: 990px;
+    justify-content: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.Secundario h3{
+    text-align: center;
+}
+.Titin{
+    text-align: justify;
+    padding: 10px;
+}
+.TiSec{
+    text-align: justify;
+    padding: 10px;
+}
+.T{
+    margin:auto;
+    margin-top: 40px;
+    justify-content: 5px;
+    height: 220px;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.T p{
+    text-align: justify;
+}
+.cont {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.h {
+    margin-top: 190px;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.hh {
+    font-size: 22px;
+    color: #968989;
+}
+.cons {
+    display: flex;
+    gap: 20px;
+    margin-top: 19px;
+}
+.seguras, .inseguras {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.seguras h3, .inseguras h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.contr {
+    padding: 0;
+    list-style-type: none;
+}
+.lis {
+    margin-bottom: 10px;
+}
+.correcto {
+    color: green;
+    font-size: 24px;
+}
+.incorrecto {
+    color: red;
+    font-size: 24px;
+}
+.tit h1 {
+    font-size: 24px;
+    color: #0077cc;
+    text-align: center;
+    padding: 10px;
+}
+.tit{
+    height: 50px;
+    width: 1349px;
+    background-color: #ddd5d5;
+    margin: auto;   
+}
+.PA{
+    height: 240px;
+    width: 577px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+    text-align: center;
+    opacity:88%;
+}
+.PA li{
+    text-align: justify;
+    padding: 20px;
+    padding-left: 40px;
+    text-decoration: none;
+    list-style-position: inside;
+}
+.PA li p{
+    text-align: justify;
+    
+}
+.PA {
+    counter-reset: item; 
+}
+
+.PA li {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    text-align: justify;
+}
+
+.PA li::before {
+    content: counter(item) ".";
+    counter-increment: item;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.PA h3{
+    padding: 12px;
+}
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    border-radius: 0 0 15px 15px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #0077cc;
+}
+
+.footer-link.left {
+    margin-left: 20px;
+}
+
+.footer-link.right {
+    margin-right: 20px;
+}
+.titulo h1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 0 0 15px 15px;
+}
+.footer-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.footer-link.left {
+    margin-left: 20px;
+}
+.footer-link.right {
+    margin-right: 20px;
+}
+.Foo{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 677px;
+    border-radius: 0 0 15px 15px;
+}

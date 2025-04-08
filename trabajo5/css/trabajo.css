@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+    text-align: justify;
+}
+header{
+    height: 100px;
+    width: 1356px;
+    margin: auto;
+    background-color: aqua;
+}
+header h1{
+    padding: 30px;
+    text-align: left;
+}
+header nav{
+    text-align: center;
+}
+.sub{
+    background-color: aquamarine;
+    margin: auto;
+    height: 35px;
+    padding: 10px;
+}
+.sub h2{
+    margin-left: 600px;
+}
+.Principal{
+    width: 600px;
+    height: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 90px;
+    
+}
+.In{
+    text-align: justify;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.In h3{
+    padding: 5px;
+    margin-left: 220px;
+}
+.In p{
+    padding: 5px;
+}
+.De{
+    text-align: justify;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.De h3{
+    padding: 5px;
+    margin-left: 220px;
+}
+.De p{
+    padding: 5px;
+}
+.Con{
+    text-align: justify;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    
+}
+.Con h3{
+    padding: 5px;
+    margin-left: 220px;
+}
+.Con p{
+    padding: 5px;
+}
+footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}

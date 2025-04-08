@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.Titulo h1 {
+    font-size: 28px;
+    margin: 0;
+    display: inline-block;
+}
+.Titulo i {
+    font-size: 28px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.Subtitulo h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.p1, .p2, .p3 {
+    margin-top: 20px;
+}
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+p {
+    font-size: 16px;
+    color: #555;
+}
+.PW i, .SW i, .AW i {
+    font-size: 22px;
+    margin-right: 10px;
+}
+.Titulo {
+    margin: 0px;
+    background-color: aqua;
+    padding: 20px;
+}
+.HipVin{
+    font-size: 22px;
+    margin-top: 112px;
+    text-align: center;
+}

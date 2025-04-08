@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aliceblue;
+    list-style-type: none;
+}
+.Princ{
+    height: 1510px;
+    width: 900px;
+    background-color: aqua;
+    margin: auto;
+}
+.Princ h2{
+    padding: 20PX;
+}
+.inf1{
+    height: 240px;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 860px;
+    margin: auto;
+    display: flex;
+    border-radius: 12px;
+}
+.inf1 li ol{
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.inf2{
+    height: 240px;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 860px;
+    margin: auto;
+    display: flex;
+    margin-top: 6px;
+    border-radius: 12px;
+}
+.inf2 li ol{
+    margin-left: 10px;
+    list-style-type: none;
+}
+.inf2 li ol{
+    margin-left: 10px;
+}
+.inf3{
+    height: 240px;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 860px;
+    margin: auto;
+    display: flex;
+    margin-top: 6px;
+    border-radius: 12px;
+
+}
+.inf1 li ol{
+    margin-left: 10px;
+}
+.inf3 li ol{
+    margin-left: 10px;
+    list-style-type: none;
+}
+.im img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+.ev .char img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 270px;
+    margin-right: 500px;
+}
+.ev .char{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+.ev .charm img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.ev .charma img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;   
+}
+.ev{
+    background-color: black;
+    margin-top: 270px;
+}
