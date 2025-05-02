@@ -1,0 +1,25 @@
+.Princ{
+    border: 1px blue;
+    width: 600px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.caja1{
+    width: 120px;
+    height: 80px;
+    border: 3px solid red;
+    background-color: blue;
+}
+.caja1 p{
+    
+}
+.caja2{
+    width: 120px;
+    height: 80px;
+    border: 3px dotted black;
+    background-color: red;
+    margin-left: 10px;
+}
